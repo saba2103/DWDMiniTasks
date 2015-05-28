@@ -1,0 +1,144 @@
+------------------------------------------------------------------------------
+DELTA WED DEV
+
+MINI TASK 1
+
+By
+	K Sabarathinam
+	101114012
+-------------------------------------------------------------------------------
+				MY ANSWERS
+-------------------------------------------------------------------------------
+
+
+1. What is web development?
+	It is basically developing websites for the internet with both forntend 
+and backend work. It usually refers to the main non-design aspects of building 
+web sites i.e, coding.
+
+2. What is browser?
+	These are applications built to show the websites from the internet
+to the user. Itdisplays all the text, images, videos, audios, graphics, 
+animations etc.
+
+3. How do browsers work?
+	Browsers determine the URL from the user and searches for that information
+on the internet and displays it.
+
+4. What is a server?
+	Server is like any other computer in the network but, it contains all
+the necessary information and data to run an application and other 
+users (clients) in the network request for the data.
+
+5. How do servers work?
+	Every data that is stored by the server has a unique address called the
+URL (Uniform Resource Locator). A user indentifies the data required through this
+URL. And when a server recieves a request for the information stored against
+a particular URL, it gives access accordingly.
+
+6. What is the role of CPU in running browser engines?
+
+7. What is WWW?
+	WWW stands for World wide Web. It is where all the content of the
+ internet is stored.
+
+8. What is HTML?
+	HTML is Hypertext Markup Language. It is a programming language
+which is used to build web pages for the internet. 
+ 
+9. WHat is CSS?
+	CSS stands for Cascading Style Sheets. It is used to style and format
+looks and UI of the document written in HTML,XHTML,XML etc.
+
+10. What is Javascript?
+	Javascript is a programming language used to alter the document content written 
+in a markup language. 
+
+11. What is domain?
+	A domain is the identification of a website in the www.
+
+12. What is internet?
+	The Internet carries an extensive range of information resources and 
+services, such as the inter-linked hypertext documents and applications of the 
+World Wide Web, the infrastructure to support email, and peer-to-peer 
+networks for file sharing.
+
+13. What is internet pack?
+	The data in the internet are broken down into small packets and 
+transferred over the web. On the completion of a transfer these packets
+are sorted out to built back the original data.
+
+14. What is web?
+	
+15. What is URL?
+	URL stands for Uniform Resource. It is the address of an information
+resource which is stored on the www.
+
+16. What is URI?	
+	Uniform Resource Identifier.
+
+17. What happens when you type into a browser's address bar?
+	When we type into the address bar the broswer checks if it is a web address
+or a keyword. if it is a web address it locates for the website in the give
+domain. and then displays the page.
+
+18. What is WiFi?
+	WiFi stands for Wireless Fidility. It is used to connect to a network
+wirelessly. Types of wireless encryption WEP, WPA
+
+19. Why most of the URL starts with http://?
+	http is hypertext transfer protocol. any activity by user on http website 
+is not secure while it is secure in https website.
+
+20. What's https,ftp,ssl,tsl?
+	https-hypertext transfer protocol
+	ftp- file transfer protocol
+	ssl-secure sockets layer
+	tsl- don't know
+All these are protocols which transfer info back and forth between the server 
+cliets. They differ between each other by the security and encryption capability.
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

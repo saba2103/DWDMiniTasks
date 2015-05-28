@@ -1,0 +1,123 @@
+------------------------------------------------------------------------------
+DELTA WED DEV
+
+MINI TASK 1
+
+By
+	K Sabarathinam
+	101114012
+-------------------------------------------------------------------------------
+				WITH REFERENCE
+-------------------------------------------------------------------------------
+
+
+1. What is web development?
+	Web development is a broad term for the work involved in developing 
+a web site for the Internet or an intranet.It can range from developing the 
+simplest static single page of plain text to the most complex web-based 
+internet applications, electronic businesses, and social network services.
+
+2. What is browser?
+	A browser is a software application for retrieving, presenting and 
+traversing information resources on the World Wide Web. An information resource 
+is identified by a URL and may be a web page, image, video or other piece of content.
+
+3. How do browsers work?
+	The primary purpose of a web browser is to bring information resources 
+to the user, allowing them to view the information, and then access other
+information.
+
+4. What is a server?
+	Any central device in a workstation network that is capable of accepting 
+and passing on information to various nodes can be termed as a server. 
+
+5. How do servers work?
+	
+
+6. What is the role of CPU in running browser engines?
+
+
+7. What is WWW?
+	The World Wide Web is an information system of interlinked hypertext 
+documents that are accessed via the Internet and built on top of the DNS.
+
+8. What is HTML?
+	HyperText Markup Language, commonly referred to as HTML, is the 
+standard markup language used to create web pages.
+ 
+9. WHat is CSS?
+	Cascading Style Sheets (CSS) is a style sheet language used for 
+describing the look and formatting of a document written in a markup language.
+Along with HTML and JavaScript, CSS is used by most websites to create visually
+engaging webpages, user interfaces for web applications, and user interfaces
+for many mobile applications.
+
+10. What is Javascript?
+	Javascript is a dynamic programming language. It is used to wrtie client-side
+scripts in order to interact with user while running an application.
+
+11. What is domain?
+	A domain name is an identification string that defines a realm of 
+administrative autonomy, authority or control within the Internet. 
+Domain names are formed by the rules and procedures of the DNS.
+Ex - .com, .org, .net, .in, .edu, .gov etc..
+
+12. What is internet?
+	The Internet is a global system of interconnected computer networks 
+that use the standard Internet protocol suite (TCP/IP) to link several billion 
+devices worldwide. It is a network of networks[1] that consists of millions of 
+private, public, academic, business, and government networks of local to global
+ scope, linked by a broad array of electronic, wireless, and optical networking
+ technologies. 
+
+13. What is internet pack?
+	A network packet is a formatted unit of data carried by a 
+packet-switched network.
+
+14. What is web?
+	
+
+15. What is URL?
+	A URL is a URI that, in addition to identifying a web resource, 
+specifies the means of acting upon or obtaining the representation, 
+specifying both its primary access mechanism and network location.
+
+16. What is URI?
+	 It is a string of characters used to identify a name of a resource.
+It can either be a URL or a URN or both.
+
+17. What happens when you type into a browser's address bar?
+
+#1 browser checks cache; if requested object is in cache and is fresh, skip to #9
+#2 browser asks OS for server's IP address
+#3 OS makes a DNS lookup and replies the IP address to the browser
+#4 browser opens a TCP connection to server (this step is much more complex with HTTPS)
+#5 browser sends the HTTP request through TCP connection
+#6 browser receives HTTP response and may close the TCP connection, or reuse 
+it for another request
+#7 browser checks if the response is a redirect (3xx result status codes), 
+authorization request (401), error (4xx and 5xx), etc.; these are handled 
+differently from normal responses (2xx)
+#8 if cacheable, response is stored in cache
+#9 browser decodes response (e.g. if it's gzipped)
+#10 browser determines what to do with response (e.g. is it a HTML page, is 
+it an image, is it a sound clip?)
+#11 browser renders response, or offers a download dialog for unrecognized types
+
+18. What is WiFi?
+	Wi-Fi is a local area wireless computer networking technology
+ that allows electronic devices to network, mainly using the 2.4 gigahertz 
+(12 cm) UHF and 5 gigahertz (6 cm) SHF ISM radio bands.
+
+19. Why most of the URL starts with http://?
+	http tansfers info back and forth between the server and the clients. 
+any site with http can communicate with the browser hence anything types 
+isn't safe. while https keeps us fully secured.
+
+20. What's https,ftp,ssl,tsl?
+	https-hypertext transfer protocol
+	ftp- file transfer protocol
+	ssl-secure sockets layer
+	tsl-transport layer security
+
+-------------------------------------------------------------------------------
