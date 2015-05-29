@@ -1,0 +1,54 @@
+------------------------------------------------------------------------------
+DELTA WED DEV
+
+MINI TASK 2
+
+By
+	K Sabarathinam
+	101114012
+-------------------------------------------------------------------------------
+				
+-------------------------------------------------------------------------------
+
+
+1. Complexities faced in the first task.
+	I was very scared at first to even start this. I was confused which route to
+take. either go through <svg> or canvas. So, i tried svg and got stuck in mid
+and then switched to canvas thinking that i can reach the output. again got stuck and
+switched back to svg. This kept happening. at last, i decided to go with canvas no matter
+what keeping in mind about its versatile use in present day. and finally 
+got the output. 
+
+Positioning the canvas and onclick were other two things i struggled a bit at.
+
+One mistake i made was forgetting to read about obtusive and unobtrusive concepts
+Which were very important. 
+
+
+2. What all concepts you learnt?
+	I learnt about canvas, div elements, doms, random func, click events
+ and most importantly how to use rbg.
+
+
+3. Experience with your mentor, review and adv task.
+	My Web Dev mentor is the best metor i would say. the mentors of all other profiles
+that im in, hardly talk to us. they just inform when a task is given and then 
+get back to us only on the day before submission. abhi keeps track of every movement 
+in the learning process of each one of us. WE GENUINELY are learning a lot in the
+right way. I can feel the effort he is putting to teach us every bit which is needed.
+
+My review was so short. only 3 ques were asked.
+-canvas
+-why web browsers are written in html
+-why i used "+x+" for rgb value
+
+i answered the first two. but, i had used the third one blindly in my code without 
+knowing what it does just coz abhi had told to use it. something which i shouldn't 
+have done. won't repeat it again. will learn first and the n use unknown things.
+
+Advance task was fun. I love such tasks. Pure logic and awesome. 
+getting the working main task was exciting and proceeding with
+the same excitment made the advance task easy, fun and learning of course.
+
+
+-------------------------------------------------------------------------------
