@@ -1,0 +1,131 @@
+------------------------------------------------------------------------------
+DELTA WED DEV
+
+MINI TASK 3
+
+By
+	K Sabarathinam
+	101114012
+-------------------------------------------------------------------------------
+				
+-------------------------------------------------------------------------------
+
+1. What is browser console? Why is that designed?
+	a web console logs information associated only with a webpage
+whereas a browser console logs information associated with whole browser.
+the main purpose of browser consoles is debugging.
+
+2. Write a command in console that changes the source of all the images to this 
+"https://goo.gl/P0Xgv7".
+
+	ar images = $$('img');
+	for(each in images)
+	{
+	images[each].src="https://goo.gl/P0Xgv7"; 
+
+3. Research about <kbd>, <marquee>, <blink> tags in HTML and "onerror" event in js.
+	
+	<kbd> - A HTML Keyboard Input Element that represents user input and produces 
+an inline element displayed in the browser's default monospace font.
+
+<marquee> - It is used for scrolling piece of text or image displayed
+ either horizontally across or vertically down your web site page depending on the settings.
+
+<blink> - It is a non-standard element causing the enclosed text to flash slowly.
+
+4. What is the advantage and disadvantage of "id" and "class" over each other?
+
+		ID				CLASS
+
+	*ID's are unique		Classes are NOT unique
+
+*Each element can have only one ID	You can use the same class on multiple elements.	
+
+*Each page can have only one element 	Each page can have only one element with that ID
+with that ID
+
+*ID's have special browser 		Classes have no special abilities in the browser
+functionality				
+
+		*If you don't need them, don't use them
+		
+			*Elements can have BOTH
+
+
+5. 	a) alert (' '=='0'); // returns false
+	b) alert (0==' '); // returns true
+	c) alert (0=='0'); // returns true
+
+ a) ' ' is boolean false and '0' is int 0. so, it returns false.
+ b) 0 is boolean false and ' ' is also false. hence, the condition is true.
+ c) 0 is boolean false and '0' is also boolean false. hence, the condition is true.
+
+6. What is "return" command in any programming language?
+
+a return command in any programming language returns the desired value from the called
+ function to the calling function.
+
+7. Research about functional programming. Relate it with JS.
+
+when we need to write a really really big code, it makes it difficult to locate certain 
+codesand look for errors. it looks totally messy. so, in order to keep everything 
+properly compiledwe use fuctions where we actually fragment the code into parts and put 
+then into functions. whenever we need to execute certain bunch of codes, we just call 
+them. we can also pass parametersfunctions.
+
+8. Explain this output in JS.
+	var x=5;
+	{
+		var x=10;
+	}
+	alert(x); //outputs 10
+WHY? Explain how it is different from C/C++?
+
+in js first x is declared as 5. again in the brackets x is redefined as 10 and its 
+value is modified.hence it returns 10. 
+where as in c/c++, x is initialized to 5. and and then in the brackets a new var 
+x is initialized to 10where this x=10 is accessible only inside the brackets. so
+ we get an output of 5 i.e the value of x initializedoutside the brackets. if we 
+cout x inside the brackets we get 10. and the x=5 is not accessible inside the brackets.
+
+9. If you have already opened some website in your browser, and if you open it nexttime, 
+it might load faster than earlier. Why?
+
+when we visit a website is stored offline called cache. so, when we try to open it 
+again, it first checks cache. the website exists, it loads the website from cache. 
+we also know that our PC is way faster then our internet speed.hence the difference.
+
+10. Draw a ball on a screen and control its movement via arrow keys.
+
+<html>
+	<title>Moving Ball</title>
+	<style>
+		#ball{
+			height:100px;
+			width:100px;
+			border-radius:50px;
+			position:absolute;
+			top:250px;
+			left:550px;
+			background-color:black;
+		}
+	</style>
+	<body onkeydown = "move()">
+		<div id = "ball"></div>		
+	</body>
+	<script>
+		var ball = document.getElementById('ball');
+		var t = ball.offsetTop;
+		var l = ball.offsetLeft;
+		
+		function move(){	
+			var keyCode = event.keyCode;
+			if (keyCode == '38' && t>0)t-=10;
+			else if (keyCode  == '40'&& t<540)t+=10;
+			else if (keyCode  == '37' && l>0)l-=10;
+			else if (keyCode  == '39'&& l<1260)l+=10;
+			ball.style.top=t+'px';
+			ball.style.left=l+'px';
+		}
+	</script>
+</html> 
