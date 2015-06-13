@@ -1,0 +1,66 @@
+------------------------------------------------------------------------------
+DELTA WED DEV
+
+MINI TASK 7
+
+By
+	K Sabarathinam
+	101114012
+-------------------------------------------------------------------------------
+				
+-------------------------------------------------------------------------------
+
+1. What is a server?
+	a server is a computer program that provides services to other computer 
+programs (and their users) in the same or other computers. In the client/server 
+programming model, a server is a program that awaits and fulfills requests from 
+client programs in the same or other computers. A given application in a computer 
+may function as a client with requests for services from other programs and also 
+as a server of requests from other programs.
+
+2. What is a localhost?
+	localhost is a hostname that means this computer and may be used to access
+the computer's own network services via its loopback network interface. Using the 
+loopback interface bypasses local network interface hardware.
+	
+3. What are loopback ip addresses ?
+	Loopback address is a special IP number (127.0.0.1) that is designated for 
+the software loopback interface of a machine. The loopback interface has no hardware 
+associated with it, and it is not physically connected to a network. Loopback ips 
+are between 127.0.0.1 to 127.255.255.254.
+
+4. Why loopback ips are between 127.0.0.1 to 127.255.255.254 ?
+	All loopbacks are not the same. Sometimes you have multiple services and 
+they have to use loopback listening on the same port. You need to assign separate 
+loopback addresses if you want to talk to them individually. You can't have one 
+loopback address in this case.
+
+5. What is xampp ? what is phpmyadmin ?
+	It is intended for use only as a development tool, to allow website designers
+and programmers to test their work on their own computers without any access to the 
+Internet. To make this as easy as possible, many important security features are 
+disabled by default.XAMPP has the ability to serve web pages on the World Wide Web 
+although there is no evidence of this being done.
+It also provides support for creating and manipulating databases in MySQL and SQLite 
+among others.
+phpmyadmin is a tool written in PHP intended to handle the administration of MySQL 
+with the use of a web browser. It can perform various tasks such as creating, modifying 
+or deleting databases, tables, fields or rows; executing SQL statements; or managing 
+users and permissions.
+
+6. Why server scripts are not visible in page source?
+	Due to security restrictions and it is inherently unsafe to for the sever scripts
+to be displayed in page source as the clients will be able to modify and manipulate the
+main code and spoil or change the purpose of the page.
+
+7. what is special about www or html or htdocs folders ?
+	It is the server root directory where all the files are stored. 
+
+8. explain client-server mechanism.
+	
+	  i. clients sends a request to server and keeps connections alive;
+	 ii. server keeps a handle on the connection and waits;
+	iii. when updates are available, server sends back data to client;
+	 iv. (depending on client-side tech) client may need to send a new request.
+
+-------------------------------------------------------------------------------
